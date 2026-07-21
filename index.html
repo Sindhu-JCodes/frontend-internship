@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Page - Day 2</title>
+    <title>My Page - Day 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    < NAVIGATION >
-    <header>
-        <h1>Sindhu J</h1>
+    <header class="navbar">
+        <h1 class="logo">Sindhu J</h1>
         <nav>
             <a href="#about">About</a> | 
             <a href="#skills">Skills</a> | 
@@ -16,23 +17,20 @@
         </nav>
     </header>
 
-    < ABOUT >
-    <section id="about">
+    <section id="about" class="section">
         <h2>About</h2>
-        <p>Hi, I am Sindhu. I am studying EEE in Arunachala Engineering Colege for Women. 
+        <p>Hi, I am Sindhu. I am studying EEE in Arunachala Engineering College for Women. 
         I joined this internship to learn and explore web development.</p>
     </section>
 
-    < SKILLS >
-    <section id="skills">
+    <section id="skills" class="section">
         <h2>Skills</h2>
-        <ul>
-            <li>Basic HTML</li>
-            <li>Basic CSS</li>
-        </ul>
+        <div class="skills-container">
+            <div class="card">Basic HTML</div>
+            <div class="card">Basic CSS</div>
+        </div>
     </section>
 
-    < EDUCATION >
     <section id="education">
         <h2>Education</h2>
         <table border="1">
@@ -47,27 +45,22 @@
         </table>
     </section>
 
-    < CONTACT >
-    <section id="contact">
+    <section id="contact" class="section">
         <h2>Contact</h2>
         <form>
             <label>Name:</label>
-            <input type="text"><br><br>
+            <input type="text" value="Sindhu J"><br><br>
 
             <label>Email:</label>
-            <input type="email"><br><br>
+            <input type="email" value="sindhujana2@gmail.com"><br><br>
 
             <label>Message:</label>
-            <textarea></textarea><br><br>
+            <textarea>I am interested in the internship to hone my skills</textarea><br><br>
 
             <button>Send</button>
         </form>
     </section>
 
-    < FOOTER >
-    <footer>
-        <p>2026 Sindhu J</p>
-    </footer>
-
+    
 </body>
 </html>
